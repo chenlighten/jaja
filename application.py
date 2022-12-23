@@ -5,7 +5,7 @@ application = Flask(__name__)
 app = application
 #app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://gudmundurmj:gudmundur@localhost/project_db'
 #app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://admin:Hhy999626@database-3.citzedvikw2a.us-east-1.rds.amazonaws.com/flaskaws'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://admin:password@contact.cdxlgoybrmsi.us-east-1.rds.amazonaws.com.com/flaskawl'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://admin:password@contact.cdxlgoybrmsi.us-east-1.rds.amazonaws.com/flaskawl'
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.secret_key = "somethingunique"
